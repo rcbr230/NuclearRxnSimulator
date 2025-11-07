@@ -10,6 +10,11 @@ class Particle
 
 	float xVelocity;
 	float yVelocity;
+	float x;
+	float y;
+
+	bool Collision(Particle collider);
+	Particle CheckCollision();
 };
 
 #endif
